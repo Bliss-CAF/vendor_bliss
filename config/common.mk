@@ -85,10 +85,10 @@ PRODUCT_PACKAGES += \
 
 #    SlimFileManager removed until updated
 
-ifneq ($(DISABLE_BLISS_FRAMEWORK), true)
+#ifneq ($(DISABLE_BLISS_FRAMEWORK), true)
 ## Bliss Framework
-include frameworks/opt/bliss/bliss_framework.mk
-endif
+#include frameworks/opt/bliss/bliss_framework.mk
+#endif
 
 ## Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
