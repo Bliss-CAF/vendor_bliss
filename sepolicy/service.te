@@ -1,2 +1,2 @@
-# Slim services
-type slim_status_bar_service, system_api_service, system_server_service, service_manager_type;
+# Bliss services
+type bliss_status_bar_service, system_api_service, system_server_service, service_manager_type;

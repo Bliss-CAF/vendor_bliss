@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # Copyright (C) 2009 The Android Open Source Project
-# Copyright (C) 2014 SlimRoms Project
+# Copyright (C) 2014 Bliss-CAF Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ def mangle_lcd_prop(prop):
         new_lcd = lcd_changer.get(lcd, lcd)
     if new_lcd != '':
         prop.put('persist.sys.lcd_density', new_lcd)
-        prop.put('ro.slim.lcd_density', new_lcd)
+        prop.put('ro.bliss.lcd_density', new_lcd)
 
 
 def mangle_build_prop(prop):
